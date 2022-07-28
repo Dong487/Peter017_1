@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		F51B7D442890526F00A31D4E /* Peter017_1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51B7D432890526F00A31D4E /* Peter017_1App.swift */; };
-		F51B7D462890526F00A31D4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51B7D452890526F00A31D4E /* ContentView.swift */; };
 		F51B7D482890527400A31D4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F51B7D472890527400A31D4E /* Assets.xcassets */; };
 		F51B7D4B2890527400A31D4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F51B7D4A2890527400A31D4E /* Preview Assets.xcassets */; };
 		F51B7D552890527500A31D4E /* Peter017_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51B7D542890527500A31D4E /* Peter017_1Tests.swift */; };
 		F51B7D5F2890527500A31D4E /* Peter017_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51B7D5E2890527500A31D4E /* Peter017_1UITests.swift */; };
 		F51B7D612890527500A31D4E /* Peter017_1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51B7D602890527500A31D4E /* Peter017_1UITestsLaunchTests.swift */; };
+		F51B7D702890531600A31D4E /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51B7D6F2890531600A31D4E /* ViewModel.swift */; };
+		F51B7D722890534400A31D4E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51B7D712890534400A31D4E /* HomeView.swift */; };
+		F51B7D75289054E000A31D4E /* Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51B7D74289054E000A31D4E /* Picker.swift */; };
+		F51B7D7828906E0F00A31D4E /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51B7D7728906E0F00A31D4E /* ImagePicker.swift */; };
+		F51B7D7A28906FD500A31D4E /* ZoomableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51B7D7928906FD500A31D4E /* ZoomableScrollView.swift */; };
+		F56D6A2E2891830400B0371C /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56D6A2D2891830400B0371C /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		F51B7D402890526F00A31D4E /* Peter017_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Peter017_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F51B7D432890526F00A31D4E /* Peter017_1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peter017_1App.swift; sourceTree = "<group>"; };
-		F51B7D452890526F00A31D4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F51B7D472890527400A31D4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F51B7D4A2890527400A31D4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F51B7D502890527500A31D4E /* Peter017_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Peter017_1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,12 @@
 		F51B7D5A2890527500A31D4E /* Peter017_1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Peter017_1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F51B7D5E2890527500A31D4E /* Peter017_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peter017_1UITests.swift; sourceTree = "<group>"; };
 		F51B7D602890527500A31D4E /* Peter017_1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peter017_1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F51B7D6F2890531600A31D4E /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		F51B7D712890534400A31D4E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F51B7D74289054E000A31D4E /* Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker.swift; sourceTree = "<group>"; };
+		F51B7D7728906E0F00A31D4E /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		F51B7D7928906FD500A31D4E /* ZoomableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomableScrollView.swift; sourceTree = "<group>"; };
+		F56D6A2D2891830400B0371C /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +105,10 @@
 			isa = PBXGroup;
 			children = (
 				F51B7D432890526F00A31D4E /* Peter017_1App.swift */,
-				F51B7D452890526F00A31D4E /* ContentView.swift */,
+				F51B7D73289054C900A31D4E /* Models */,
+				F51B7D6E289052F500A31D4E /* ViewModels */,
+				F51B7D6D289052DF00A31D4E /* Views */,
+				F51B7D7628906DE300A31D4E /* UIViewRepresentables */,
 				F51B7D472890527400A31D4E /* Assets.xcassets */,
 				F51B7D492890527400A31D4E /* Preview Content */,
 			);
@@ -125,6 +138,40 @@
 				F51B7D602890527500A31D4E /* Peter017_1UITestsLaunchTests.swift */,
 			);
 			path = Peter017_1UITests;
+			sourceTree = "<group>";
+		};
+		F51B7D6D289052DF00A31D4E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F51B7D712890534400A31D4E /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F51B7D6E289052F500A31D4E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F51B7D6F2890531600A31D4E /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F51B7D73289054C900A31D4E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F51B7D74289054E000A31D4E /* Picker.swift */,
+				F56D6A2D2891830400B0371C /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F51B7D7628906DE300A31D4E /* UIViewRepresentables */ = {
+			isa = PBXGroup;
+			children = (
+				F51B7D7728906E0F00A31D4E /* ImagePicker.swift */,
+				F51B7D7928906FD500A31D4E /* ZoomableScrollView.swift */,
+			);
+			path = UIViewRepresentables;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +304,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F51B7D462890526F00A31D4E /* ContentView.swift in Sources */,
+				F51B7D722890534400A31D4E /* HomeView.swift in Sources */,
+				F56D6A2E2891830400B0371C /* UserModel.swift in Sources */,
+				F51B7D75289054E000A31D4E /* Picker.swift in Sources */,
+				F51B7D7828906E0F00A31D4E /* ImagePicker.swift in Sources */,
+				F51B7D702890531600A31D4E /* ViewModel.swift in Sources */,
+				F51B7D7A28906FD500A31D4E /* ZoomableScrollView.swift in Sources */,
 				F51B7D442890526F00A31D4E /* Peter017_1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,11 +474,12 @@
 				DEVELOPMENT_TEAM = 942H6V444Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "算命時 提供相機拍照上傳功能";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,11 +504,12 @@
 				DEVELOPMENT_TEAM = 942H6V444Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "算命時 提供相機拍照上傳功能";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -11,7 +11,11 @@ import SwiftUI
 struct Peter017_1App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
+                .environmentObject(HomeViewModel())
+                .onAppear{
+                    UserDefaults.standard.setValue(false, forKey: "_UIConstraintBasedLayoutUnsatisfiable") // 抑制錯誤警告
+                }
         }
     }
 }
